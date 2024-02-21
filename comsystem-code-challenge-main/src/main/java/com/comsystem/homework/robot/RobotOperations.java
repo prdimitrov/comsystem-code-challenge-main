@@ -56,7 +56,7 @@ public class RobotOperations {
                     numberOfClonedRobots++;
                 }
                 //On the last day ALL ROBOTS will only DIG!.
-                for (int i = 0; i <= numberOfClonedRobots; i++) {
+                for (int i = 0; i < numberOfClonedRobots; i++) {
                     robotActionsList.add(RobotAction.DIG);
                 }
                 //Here is the first robot also making the DIG action.
